@@ -24,7 +24,7 @@ public class UserDaoImpl implements UserDao {
         String sql="INSERT INTO user_table(u_name,u_sex,u_id,a_id,create_time,u_url) VALUES(?,?,?,?,?,?)";
         try {
             jdbcTemplate.update(sql, user.getU_name(), user.getU_sex(), user.getU_id(), user.getA_id(), user.getCreate_time(), user.getU_url());
-            return true;
+           return true;
         }catch (Exception e){
             return false;
         }

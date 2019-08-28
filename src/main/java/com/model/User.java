@@ -6,8 +6,8 @@ public class User {
     private Integer id;
     private String u_name;
     private String u_sex;
-    private String u_id;
-    private String a_id;
+    private Integer u_id;
+    private Integer a_id;
     private Date create_time;
     private String u_url;
 
@@ -35,19 +35,19 @@ public class User {
         this.u_sex = u_sex;
     }
 
-    public String getU_id() {
+    public Integer getU_id() {
         return u_id;
     }
 
-    public void setU_id(String u_id) {
+    public void setU_id(Integer u_id) {
         this.u_id = u_id;
     }
 
-    public String getA_id() {
+    public Integer getA_id() {
         return a_id;
     }
 
-    public void setA_id(String a_id) {
+    public void setA_id(Integer a_id) {
         this.a_id = a_id;
     }
 

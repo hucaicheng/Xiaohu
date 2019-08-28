@@ -12,6 +12,10 @@ public class Agent {
         this.a_password = a_password;
     }
 
+    public String getA_password() {
+        return a_password;
+    }
+
     public Integer getId() {
         return id;
     }

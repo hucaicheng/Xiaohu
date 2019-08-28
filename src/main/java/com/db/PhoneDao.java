@@ -2,14 +2,12 @@ package com.db;
 
 import com.model.Phone;
 
-import java.rmi.server.UID;
-
 public interface PhoneDao {
-    boolean InsertPhone(String id,String u_phone);
+    boolean InsertPhone(Integer id,String u_phone);
     Phone FindIdByPhone(String phone);
-    Phone FindPhoneById(String id);
-    boolean DeleteById(String id);
+    Phone FindPhoneById(Integer id);
+    boolean DeleteById(Integer id);
     boolean DeleteByPhone(String phone);
-    boolean updatePhone(String id,String phone);
+    boolean updatePhone(Integer id,String phone);
 
 }
