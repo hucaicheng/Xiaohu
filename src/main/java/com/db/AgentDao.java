@@ -2,6 +2,9 @@ package com.db;
 
 import com.model.Agent;
 
+import javax.swing.event.ListDataEvent;
+import java.util.List;
+
 public interface AgentDao {
 
     //添加邀请人
@@ -15,4 +18,6 @@ public interface AgentDao {
 
     //删除邀请人
     boolean DeleteAgent(Integer a_id);
+    //查看所有邀请人
+    List<Agent> GetAll();
 }

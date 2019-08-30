@@ -18,11 +18,11 @@ public interface UserDao {
     /*
      * 通过区号来获取这个区中的所有用户
      */
-    List<User> FindUsersByUid(String u_id);
+    List<User> FindUsersByUid(int u_id);
     /**
      * 通过代理人的id来获取代理人的用户
      */
-    List<User> FindUsersByAid(String a_id);
+    List<User> FindUsersByAid(int a_id);
 
     /*
      * 获取所有记录

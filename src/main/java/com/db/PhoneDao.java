@@ -3,7 +3,7 @@ package com.db;
 import com.model.Phone;
 
 public interface PhoneDao {
-    boolean InsertPhone(Integer id,String u_phone);
+    boolean InsertPhone(String u_phone);
     Phone FindIdByPhone(String phone);
     Phone FindPhoneById(Integer id);
     boolean DeleteById(Integer id);

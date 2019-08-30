@@ -10,6 +10,15 @@ public class User {
     private Integer a_id;
     private Date create_time;
     private String u_url;
+    private String phone;
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
 
     public Integer getId() {
         return id;
