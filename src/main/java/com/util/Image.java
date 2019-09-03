@@ -9,31 +9,32 @@ import java.io.IOException;
 
 /**
  * @author:智霸霸
- * @Date 2019/9/2
+ * @Date 2019/8/31
  */
 public class Image {
     private BufferedImage bimg;
     static String VCode[]=new String[5];
-    final private static String charset="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+    private final  static String charset="ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
     private Font font1;
     public BufferedImage getImage()
     {
-        bimg=new BufferedImage(150,40,BufferedImage.TYPE_INT_RGB);
-        Graphics g=bimg.getGraphics();
+        bimg=new BufferedImage(150,40,BufferedImage.TYPE_4BYTE_ABGR);
+
+        Graphics2D g=bimg.createGraphics();
         for(int i=0;i<5;i++)
         {
             font1=new Font("myfont",Font.BOLD,getRandomSize());
             g.setColor(getRandomColor());
             g.setFont(font1);
             String me=String.valueOf(getRandomChar());
-            g.drawString(""+me,20*i+10,25);
+            g.drawString(""+me,20*i+10,25);//drawString(String str,int x,int y)
             VCode[i]=me;
         }
         return bimg;
     }
     //随机大小
     private int getRandomSize() {
-        int a=(int)(Math.random()*15)+10;
+        int a=(int)(Math.random()*15)+20;
         return a;
     }
     //随机字符
@@ -62,8 +63,8 @@ public class Image {
     }
 //    public static void main(String[] args) throws IOException, FileNotFoundException {
 //        Image a=new Image();
-//        FileOutputStream fout=new FileOutputStream("D:/1.bmp");
-//        ImageIO.write(a.getImage(),"bmp",fout);
+//        FileOutputStream fout=new FileOutputStream("D:/1.png");
+//        ImageIO.write(a.getImage(),"png",fout);
 //        System.out.println(a.getVcode());
 //    }
 }

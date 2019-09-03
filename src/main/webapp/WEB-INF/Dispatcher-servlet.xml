@@ -31,10 +31,7 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <!--配置随机验证码图片-->
-    <bean class="com.util.Image">
 
-    </bean>
     <!--开启事务注解-->
     <tx:annotation-driven transaction-manager="transactionManager"/>
     <mvc:annotation-driven/>

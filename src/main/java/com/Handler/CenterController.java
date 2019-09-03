@@ -25,11 +25,11 @@ public class CenterController {
     private Image img;
 
     @RequestMapping(value = "/userRegister",method = RequestMethod.POST)
-    public String userRegister(User user,String test,Map<String,Object> map){
+    public String userRegister(User user,String code,Map<String,Object> map){
         DataResult dataResult =new DataResult();
-        if(test.equals(img.getVcode())) {
+        if(code.equals(img.getVcode())) {
             user.setCreate_time(new Date());
-            System.out.println(user);
+            //System.out.println(user);
             dataResult = userService.UserRigister(user);
         }else{
             dataResult.setStatus(401);
@@ -43,7 +43,7 @@ public class CenterController {
     public void GetImg(HttpServletResponse response,Map<String,Object> map) throws IOException {
         img=new Image();
         OutputStream out = response.getOutputStream();
-        ImageIO.write(img.getImage(),"jpeg",out);
+        ImageIO.write(img.getImage(),"png",out);
     }
 
     @ResponseBody
