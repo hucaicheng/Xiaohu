@@ -12,14 +12,6 @@ public class User {
     private String u_url;
     private String phone;
 
-    public String getPhone() {
-        return phone;
-    }
-
-    public void setPhone(String phone) {
-        this.phone = phone;
-    }
-
     public Integer getId() {
         return id;
     }
@@ -74,5 +66,27 @@ public class User {
 
     public void setU_url(String u_url) {
         this.u_url = u_url;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", u_name='" + u_name + '\'' +
+                ", u_sex='" + u_sex + '\'' +
+                ", u_id=" + u_id +
+                ", a_id=" + a_id +
+                ", create_time=" + create_time +
+                ", u_url='" + u_url + '\'' +
+                ", phone='" + phone + '\'' +
+                '}';
     }
 }

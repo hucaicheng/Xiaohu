@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            var url="/RegisterSystem_war/user";
+            var args={};
+            $.post(url,args,function (data) {
+                document.write("状态"+data.status+"<br>");
+                document.write("服务器消息"+data.msg+"<br>");
+                if(data.status==200)
+                document.write("数据"+data.data.u_name);
+            });
+        })
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>

@@ -25,7 +25,7 @@ public class UserService {
     public DataResult UserRigister(User user){
 
         DataResult dataResult= new DataResult();
-        if(userDao.FindUserByPhone(user.getPhone())!=null){
+        if(userDao.FindUserByPhone(user.getPhone())==null){
             userDao.InsertUser(user);
             phoneDao.InsertPhone(user.getPhone());
             dataResult.setStatus(200);
@@ -33,7 +33,7 @@ public class UserService {
             dataResult.setData(userDao.FindUserByPhone(user.getPhone()));
         }
         else {
-            dataResult.setStatus(500);
+            dataResult.setStatus(401);
             dataResult.setMsg("注册失败");
         }
 

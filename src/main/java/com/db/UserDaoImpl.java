@@ -26,6 +26,7 @@ public class UserDaoImpl implements UserDao {
             jdbcTemplate.update(sql, user.getU_name(), user.getU_sex(), user.getU_id(), user.getA_id(), user.getCreate_time(), user.getU_url(),user.getPhone());
            return true;
         }catch (Exception e){
+            e.printStackTrace();
             return false;
         }
     }
@@ -74,7 +75,7 @@ public class UserDaoImpl implements UserDao {
     }
 
     public User FindUserByPhone(String  phone){
-        String sql="SELECT * FROM user_phone WHERE phone= ?";
+        String sql="SELECT * FROM user_table WHERE phone= ?";
         try{
             RowMapper<User> rowMapper=new BeanPropertyRowMapper<>(User.class);
             User user=jdbcTemplate.queryForObject(sql,rowMapper,phone);
