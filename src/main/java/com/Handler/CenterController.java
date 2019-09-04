@@ -1,7 +1,10 @@
 package com.Handler;
 
+import com.model.Admin;
 import com.model.DataResult;
 import com.model.User;
+import com.service.AdminService;
+import com.service.AgentService;
 import com.service.UserService;
 import com.util.Image;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -24,6 +27,11 @@ public class CenterController {
     @Autowired
     private UserService userService;
 
+    @Autowired
+    private AdminService adminService;
+
+    @Autowired
+    private AgentService agentService;
 
     @RequestMapping(value = "/userRegister",method = RequestMethod.POST)
     public String userRegister(User user,String code,Map<String,Object> map,HttpSession session){
@@ -61,7 +69,24 @@ public class CenterController {
     @RequestMapping("/handler/sign_up")
     public String signUp(){
 
+
+
         return null;
     }
+
+    @ResponseBody
+    @RequestMapping("/AdminLogin")
+    public String AdminLogin(@RequestParam(required = false) String name,String pass,@RequestParam(required = false) String phone,String code,Map<String,Object> map,String type){
+        DataResult dataResult=new DataResult();
+        if("admin".equals(type)){
+            dataResult=adminService.AdminLogin(name,pass);
+            map.put("dataResult",dataResult);
+        }else if("agent".equals(type)){
+            dataResult=agentService.Login(phone,pass);
+            map.put("detaResult",dataResult);
+        }
+        return "redirect:success.html";
+    }
+
 
 }

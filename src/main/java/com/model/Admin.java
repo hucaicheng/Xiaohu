@@ -5,6 +5,10 @@ public class Admin {
     private String a_name;
     private String a_password;
 
+    public String getA_password() {
+        return a_password;
+    }
+
     public Integer getId() {
         return id;
     }
