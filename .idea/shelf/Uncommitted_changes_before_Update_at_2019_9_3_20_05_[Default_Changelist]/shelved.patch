@@ -1,0 +1,806 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ArtifactsWorkspaceSettings\">\r\n    <artifacts-to-build>\r\n      <artifact name=\"RegisterSystem:war\" />\r\n    </artifacts-to-build>\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"c2b57281-da97-4927-a523-91aedc7a8754\" name=\"Default Changelist\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/model/User.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/model/User.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/com/service/UserService.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/com/service/UserService.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/webapp/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/webapp/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <ignored path=\"$PROJECT_DIR$/out/\" />\r\n    <ignored path=\"$PROJECT_DIR$/target/\" />\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"DatabaseView\">\r\n    <option name=\"SHOW_INTERMEDIATE\" value=\"true\" />\r\n    <option name=\"GROUP_DATA_SOURCES\" value=\"true\" />\r\n    <option name=\"GROUP_SCHEMA\" value=\"true\" />\r\n    <option name=\"GROUP_CONTENTS\" value=\"false\" />\r\n    <option name=\"SORT_POSITIONED\" value=\"false\" />\r\n    <option name=\"SHOW_EMPTY_GROUPS\" value=\"false\" />\r\n    <option name=\"AUTO_SCROLL_FROM_SOURCE\" value=\"false\" />\r\n    <option name=\"HIDDEN_KINDS\">\r\n      <set />\r\n    </option>\r\n    <expand />\r\n    <select />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"313\">\r\n              <caret line=\"20\" column=\"24\" selection-start-line=\"20\" selection-start-column=\"12\" selection-end-line=\"20\" selection-end-column=\"24\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"342\">\r\n              <caret line=\"37\" column=\"42\" selection-start-line=\"37\" selection-start-column=\"42\" selection-end-line=\"37\" selection-end-column=\"42\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n                <element signature=\"e#1473#1474#0\" expanded=\"true\" />\r\n                <element signature=\"e#1530#1531#0\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"735\">\r\n              <caret line=\"35\" selection-start-line=\"35\" selection-end-line=\"35\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/webapp/index.html\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"273\">\r\n              <caret line=\"13\" column=\"54\" selection-start-line=\"13\" selection-start-column=\"54\" selection-end-line=\"13\" selection-end-column=\"54\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/webapp/success.html\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"252\">\r\n              <caret line=\"12\" column=\"53\" selection-start-line=\"12\" selection-start-column=\"53\" selection-end-line=\"12\" selection-end-column=\"53\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/src/main/java/com/service/UserService.java\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"420\">\r\n              <caret line=\"27\" selection-start-line=\"27\" selection-end-line=\"27\" />\r\n              <folding>\r\n                <element signature=\"imports\" expanded=\"true\" />\r\n              </folding>\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"spring-beans.schema\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"db\" />\r\n        <option value=\"HTML File\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"UPDATE_CHANGES_POLICY\" value=\"SHELVE\" />\r\n    <option name=\"UPDATE_TYPE\" value=\"REBASE\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"IdeDocumentHistory\">\r\n    <option name=\"CHANGED_PATHS\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/pom.xml\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/bean/Person.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/Person.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/admin.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/agent.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/phone.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/scope.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/unit.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/user.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/aminDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/userDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/Admin.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/Phone.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/AdminDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/Main.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/db.properties\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/UnitDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/UnitDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/ScopeDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/ScopeDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/AdminDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/Agent.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/entity/DataResult.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/PhoneDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/PhoneDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/UserDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/DataResult.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/service/AgentService.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/AgentDao.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/AgentDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/service/AdminService.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/service/UserService.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/defalt.html\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/model/User.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/success.html\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/util/Image.java\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/webapp/index.html\" />\r\n        <option value=\"$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"JsFlowSettings\">\r\n    <service-enabled>true</service-enabled>\r\n    <exe-path />\r\n    <other-services-enabled>true</other-services-enabled>\r\n    <auto-save>true</auto-save>\r\n  </component>\r\n  <component name=\"LogFilters\">\r\n    <option name=\"FILTER_ERRORS\" value=\"false\" />\r\n    <option name=\"FILTER_WARNINGS\" value=\"false\" />\r\n    <option name=\"FILTER_INFO\" value=\"true\" />\r\n    <option name=\"FILTER_DEBUG\" value=\"true\" />\r\n    <option name=\"CUSTOM_FILTER\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\maven\\repository\" />\r\n        <option name=\"mavenHome\" value=\"$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\Program Files\\Maven\\conf\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\r\n    <option name=\"x\" value=\"-8\" />\r\n    <option name=\"y\" value=\"-8\" />\r\n    <option name=\"width\" value=\"976\" />\r\n    <option name=\"height\" value=\"1056\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\">\r\n    <ConfirmationsSetting value=\"1\" id=\"Add\" />\r\n  </component>\r\n  <component name=\"ProjectView\">\r\n    <navigator proportions=\"\" version=\"1\">\r\n      <foldersAlwaysOnTop value=\"true\" />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"PackagesPane\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <expand>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"java\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"com\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"RegisterSystem\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"src\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"main\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"webapp\" type=\"462c0819:PsiDirectoryNode\" />\r\n              <item name=\"WEB-INF\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n            <path>\r\n              <item name=\"RegisterSystem\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"External Libraries\" type=\"cb654da1:ExternalLibrariesNode\" />\r\n            </path>\r\n          </expand>\r\n          <select />\r\n        </subPane>\r\n      </pane>\r\n      <pane id=\"Scope\" />\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DatabaseDriversLRU\" value=\"mysql\" />\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp\" value=\"1567477876604\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"fileTemplates\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Java代码_2\\RegisterSystem\\src\\main\\java\\com\\db\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"D:\\Java代码_2\\RegisterSystem\\src\\main\\java\\com\\db\" />\r\n      <recent name=\"D:\\Java代码_2\\RegisterSystem\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Tomcat Server.Tomcat 8.5.40\">\r\n    <configuration name=\"Image\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.util.Image\" />\r\n      <module name=\"RegisterSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.util.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Main\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"com.Main\" />\r\n      <module name=\"RegisterSystem\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"com.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Tomcat 8.5.40\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" APPLICATION_SERVER_NAME=\"Tomcat 8.5.40\" ALTERNATIVE_JRE_ENABLED=\"false\" nameIsGenerated=\"true\">\r\n      <option name=\"COMMON_VM_ARGUMENTS\" value=\"-Dfile.encoding=UTF-8\" />\r\n      <option name=\"UPDATING_POLICY\" value=\"restart-server\" />\r\n      <deployment>\r\n        <artifact name=\"RegisterSystem:war\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/RegisterSystem_war\" />\r\n          </settings>\r\n        </artifact>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"Tomcat_8_5_40_RegisterSystem\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"50490\" />\r\n      </RunnerSettings>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Cover\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Debug\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n        <option name=\"BuildArtifacts\" enabled=\"true\">\r\n          <artifact name=\"RegisterSystem:war\" />\r\n        </option>\r\n      </method>\r\n    </configuration>\r\n    <configuration default=\"true\" type=\"#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory\" factoryName=\"Local\" APPLICATION_SERVER_NAME=\"Tomcat 8.5.40\" ALTERNATIVE_JRE_ENABLED=\"false\">\r\n      <option name=\"OPEN_IN_BROWSER_URL\" value=\"http://localhost:8080/RegisterSystem_war/\" />\r\n      <option name=\"UPDATING_POLICY\" value=\"restart-server\" />\r\n      <deployment>\r\n        <artifact name=\"RegisterSystem:war\">\r\n          <settings>\r\n            <option name=\"CONTEXT_PATH\" value=\"/RegisterSystem_war\" />\r\n          </settings>\r\n        </artifact>\r\n      </deployment>\r\n      <server-settings>\r\n        <option name=\"BASE_DIRECTORY_NAME\" value=\"_RegisterSystem\" />\r\n      </server-settings>\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat\" />\r\n      <predefined_log_file enabled=\"true\" id=\"Tomcat Catalina\" />\r\n      <predefined_log_file id=\"Tomcat Manager\" />\r\n      <predefined_log_file id=\"Tomcat Host Manager\" />\r\n      <predefined_log_file id=\"Tomcat Localhost Access\" />\r\n      <RunnerSettings RunnerId=\"Debug\">\r\n        <option name=\"DEBUG_PORT\" value=\"50490\" />\r\n      </RunnerSettings>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Cover\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Debug\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <ConfigurationWrapper VM_VAR=\"JAVA_OPTS\" RunnerId=\"Run\">\r\n        <option name=\"USE_ENV_VARIABLES\" value=\"true\" />\r\n        <STARTUP>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </STARTUP>\r\n        <SHUTDOWN>\r\n          <option name=\"USE_DEFAULT\" value=\"true\" />\r\n          <option name=\"SCRIPT\" value=\"\" />\r\n          <option name=\"VM_PARAMETERS\" value=\"\" />\r\n          <option name=\"PROGRAM_PARAMETERS\" value=\"\" />\r\n        </SHUTDOWN>\r\n      </ConfigurationWrapper>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n        <option name=\"BuildArtifacts\" enabled=\"true\">\r\n          <artifact name=\"RegisterSystem:war\" />\r\n        </option>\r\n      </method>\r\n    </configuration>\r\n    <list>\r\n      <item itemvalue=\"Application.Main\" />\r\n      <item itemvalue=\"Application.Image\" />\r\n      <item itemvalue=\"Tomcat Server.Tomcat 8.5.40\" />\r\n    </list>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.Image\" />\r\n        <item itemvalue=\"Application.Main\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"c2b57281-da97-4927-a523-91aedc7a8754\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1566784158871</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1566784158871</updated>\r\n      <workItem from=\"1566784162138\" duration=\"7233000\" />\r\n      <workItem from=\"1566816942119\" duration=\"2946000\" />\r\n      <workItem from=\"1566868998100\" duration=\"11559000\" />\r\n      <workItem from=\"1566892802311\" duration=\"4431000\" />\r\n      <workItem from=\"1566898208640\" duration=\"278000\" />\r\n      <workItem from=\"1566898512604\" duration=\"1429000\" />\r\n      <workItem from=\"1566901173132\" duration=\"6867000\" />\r\n      <workItem from=\"1566954804561\" duration=\"7337000\" />\r\n      <workItem from=\"1566974501325\" duration=\"4808000\" />\r\n      <workItem from=\"1566982551032\" duration=\"498000\" />\r\n      <workItem from=\"1566987865347\" duration=\"816000\" />\r\n      <workItem from=\"1567010851655\" duration=\"752000\" />\r\n      <workItem from=\"1567041413106\" duration=\"8137000\" />\r\n      <workItem from=\"1567060784122\" duration=\"3555000\" />\r\n      <workItem from=\"1567064840146\" duration=\"3084000\" />\r\n      <workItem from=\"1567160116327\" duration=\"79000\" />\r\n      <workItem from=\"1567160282310\" duration=\"50000\" />\r\n      <workItem from=\"1567230557228\" duration=\"175000\" />\r\n      <workItem from=\"1567235814160\" duration=\"6258000\" />\r\n      <workItem from=\"1567250462868\" duration=\"2055000\" />\r\n      <workItem from=\"1567310263096\" duration=\"237000\" />\r\n      <workItem from=\"1567386933912\" duration=\"6102000\" />\r\n      <workItem from=\"1567398418784\" duration=\"1466000\" />\r\n      <workItem from=\"1567474158225\" duration=\"3202000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"新建了接口\">\r\n      <created>1566896948372</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1566896948372</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"新建了接口\">\r\n      <created>1566898375588</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1566898375588</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"完成了接口的实现\">\r\n      <created>1566961680163</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1566961680163</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"基本业务逻辑实现\">\r\n      <created>1567160185196</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1567160185196</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"基本业务逻辑实现\">\r\n      <created>1567160313766</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1567160313766</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"基本业务逻辑实现\">\r\n      <created>1567230652648</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1567230652648</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"7\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TimeTrackingManager\">\r\n    <option name=\"totallyTimeSpent\" value=\"83354000\" />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"-8\" y=\"-8\" width=\"1936\" height=\"1056\" extended-state=\"6\" />\r\n    <editor active=\"true\" />\r\n    <layout>\r\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"0\" sideWeight=\"0.6070796\" visible=\"true\" weight=\"0.2153518\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Image Layers\" order=\"2\" />\r\n      <window_info id=\"Capture Tool\" order=\"3\" />\r\n      <window_info id=\"UI Designer\" order=\"4\" />\r\n      <window_info id=\"Favorites\" order=\"5\" side_tool=\"true\" />\r\n      <window_info id=\"设计器\" order=\"6\" />\r\n      <window_info id=\"Web\" order=\"7\" sideWeight=\"0.39292035\" side_tool=\"true\" weight=\"0.21108742\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info active=\"true\" anchor=\"bottom\" id=\"Run\" order=\"2\" visible=\"true\" weight=\"0.3373102\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.3991323\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Spring\" order=\"7\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" />\r\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"9\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"11\" weight=\"0.03253796\" />\r\n      <window_info anchor=\"bottom\" id=\"Java Enterprise\" order=\"12\" />\r\n      <window_info anchor=\"bottom\" id=\"Database Changes\" order=\"13\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"14\" />\r\n      <window_info anchor=\"bottom\" id=\"Application Servers\" order=\"15\" weight=\"0.329718\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" id=\"Maven\" order=\"3\" />\r\n      <window_info anchor=\"right\" id=\"Palette\" order=\"4\" />\r\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"5\" />\r\n      <window_info anchor=\"right\" id=\"Database\" order=\"6\" weight=\"0.32995737\" />\r\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"7\" />\r\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"8\" />\r\n    </layout>\r\n    <layout-to-restore>\r\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"0\" visible=\"true\" weight=\"0.2521322\" />\r\n      <window_info id=\"Structure\" order=\"1\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info id=\"Image Layers\" order=\"2\" />\r\n      <window_info id=\"Capture Tool\" order=\"3\" />\r\n      <window_info id=\"UI Designer\" order=\"4\" />\r\n      <window_info id=\"Favorites\" order=\"5\" side_tool=\"true\" />\r\n      <window_info id=\"设计器\" order=\"6\" />\r\n      <window_info id=\"Web\" order=\"7\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"1\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"2\" weight=\"0.14786418\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"3\" weight=\"0.3991323\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"4\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"5\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Spring\" order=\"7\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"8\" />\r\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"9\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"10\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Messages\" order=\"11\" weight=\"0.03253796\" />\r\n      <window_info anchor=\"bottom\" id=\"Java Enterprise\" order=\"12\" />\r\n      <window_info anchor=\"bottom\" id=\"Database Changes\" order=\"13\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"14\" />\r\n      <window_info anchor=\"bottom\" id=\"Application Servers\" order=\"15\" weight=\"0.329718\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" id=\"Maven\" order=\"3\" />\r\n      <window_info anchor=\"right\" id=\"Palette\" order=\"4\" />\r\n      <window_info anchor=\"right\" id=\"Capture Analysis\" order=\"5\" />\r\n      <window_info anchor=\"right\" id=\"Database\" order=\"6\" weight=\"0.32995737\" />\r\n      <window_info anchor=\"right\" id=\"Palette&#9;\" order=\"7\" />\r\n      <window_info anchor=\"right\" id=\"Theme Preview\" order=\"8\" />\r\n    </layout-to-restore>\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"新建了接口\" />\r\n    <MESSAGE value=\"完成了接口的实现\" />\r\n    <MESSAGE value=\"基本业务逻辑实现\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"基本业务逻辑实现\" />\r\n  </component>\r\n  <component name=\"editorHistoryManager\">\r\n    <entry file=\"jar://D:/maven/repository/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"1151\" selection-start-line=\"1151\" selection-end-line=\"1151\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/impl/NewPooledConnection.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"175\">\r\n          <caret line=\"342\" selection-start-line=\"342\" selection-end-line=\"342\" />\r\n          <folding>\r\n            <element signature=\"e#13465#13466#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/impl/NewProxyConnection.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"174\" selection-start-line=\"174\" selection-end-line=\"174\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/NativeSession.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"322\">\r\n          <caret line=\"1052\" selection-start-line=\"1052\" selection-end-line=\"1052\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/conf/AbstractReadableProperty.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"315\">\r\n          <caret line=\"20\" selection-start-line=\"20\" selection-end-line=\"20\" />\r\n          <folding>\r\n            <element signature=\"e#598#599#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/ConnectionImpl.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"356\" selection-start-line=\"356\" selection-end-line=\"356\" />\r\n          <folding>\r\n            <element signature=\"e#6686#6687#0\" expanded=\"true\" />\r\n            <element signature=\"e#6765#6766#0\" expanded=\"true\" />\r\n            <element signature=\"e#6818#6819#0\" expanded=\"true\" />\r\n            <element signature=\"e#6856#6857#0\" expanded=\"true\" />\r\n            <element signature=\"e#6981#6982#0\" expanded=\"true\" />\r\n            <element signature=\"e#7061#7062#0\" expanded=\"true\" />\r\n            <element signature=\"e#16650#16651#0\" expanded=\"true\" />\r\n            <element signature=\"e#92595#92596#0\" expanded=\"true\" />\r\n            <element signature=\"e#92643#92644#0\" expanded=\"true\" />\r\n            <element signature=\"e#104065#104066#0\" expanded=\"true\" />\r\n            <element signature=\"e#104100#104101#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/jdbc/EscapeProcessor.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"39\" selection-start-line=\"39\" selection-end-line=\"39\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeCapabilities.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"336\">\r\n          <caret line=\"123\" selection-start-line=\"123\" selection-end-line=\"123\" />\r\n          <folding>\r\n            <element signature=\"e#4301#4302#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeServerSession.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"74\" selection-start-line=\"74\" selection-end-line=\"74\" />\r\n          <folding>\r\n            <element signature=\"e#3422#3423#0\" expanded=\"true\" />\r\n            <element signature=\"e#14830#14831#0\" expanded=\"true\" />\r\n            <element signature=\"e#14873#14874#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/CoreSession.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"175\">\r\n          <caret line=\"123\" selection-start-line=\"123\" selection-end-line=\"123\" />\r\n          <folding>\r\n            <element signature=\"e#5493#5494#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/mysql/mysql-connector-java/8.0.11/mysql-connector-java-8.0.11.jar!/com/mysql/cj/protocol/a/NativeProtocol.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"175\">\r\n          <caret line=\"374\" selection-start-line=\"374\" selection-end-line=\"374\" />\r\n          <folding>\r\n            <element signature=\"e#19036#19037#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$APPLICATION_CONFIG_DIR$/consoles/db/32bd7515-a221-41a5-a864-a75b662f8654/console.sql\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/target/classes/com/db/AdminDao.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state>\r\n          <folding>\r\n            <element signature=\"e#0#277#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/appformDao.class\" />\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/ScopeDao.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"147\">\r\n          <caret line=\"7\" column=\"49\" selection-start-line=\"7\" selection-start-column=\"49\" selection-end-line=\"7\" selection-end-column=\"49\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/model/Agent.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"294\">\r\n          <caret line=\"14\" column=\"35\" selection-start-line=\"14\" selection-start-column=\"35\" selection-end-line=\"14\" selection-end-column=\"35\" />\r\n          <folding>\r\n            <element signature=\"e#255#256#0\" expanded=\"true\" />\r\n            <element signature=\"e#299#300#0\" expanded=\"true\" />\r\n            <element signature=\"e#369#370#0\" expanded=\"true\" />\r\n            <element signature=\"e#329#330#0\" expanded=\"true\" />\r\n            <element signature=\"e#354#355#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../Online/src/main/webapp/success.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"210\">\r\n          <caret line=\"10\" column=\"64\" selection-start-line=\"10\" selection-start-column=\"64\" selection-end-line=\"10\" selection-end-column=\"64\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../Online/src/main/java/com/Handler/CenterController.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"609\">\r\n          <caret line=\"35\" column=\"17\" lean-forward=\"true\" selection-start-line=\"35\" selection-start-column=\"17\" selection-end-line=\"35\" selection-end-column=\"17\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/../SpringJDBC/src/main/java/com/jdbc/BookShopServiceImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/UnitDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"735\">\r\n          <caret line=\"42\" column=\"65\" selection-start-line=\"42\" selection-start-column=\"65\" selection-end-line=\"42\" selection-end-column=\"65\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/PhoneDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"924\">\r\n          <caret line=\"49\" column=\"24\" selection-start-line=\"49\" selection-start-column=\"24\" selection-end-line=\"49\" selection-end-column=\"24\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/PhoneDao.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"105\">\r\n          <caret line=\"5\" column=\"24\" selection-start-line=\"5\" selection-start-column=\"24\" selection-end-line=\"5\" selection-end-column=\"24\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/org/springframework/spring-beans/4.1.0.RELEASE/spring-beans-4.1.0.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"189\">\r\n          <caret line=\"16\" column=\"18\" selection-start-line=\"16\" selection-start-column=\"18\" selection-end-line=\"16\" selection-end-column=\"18\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/service/AgentService.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"63\">\r\n          <caret line=\"3\" column=\"22\" selection-start-line=\"3\" selection-start-column=\"22\" selection-end-line=\"3\" selection-end-column=\"22\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/AgentDao.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"378\">\r\n          <caret line=\"21\" column=\"8\" selection-start-line=\"21\" selection-start-column=\"4\" selection-end-line=\"21\" selection-end-column=\"8\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/AdminDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"210\">\r\n          <caret line=\"15\" column=\"59\" selection-start-line=\"15\" selection-start-column=\"27\" selection-end-line=\"15\" selection-end-column=\"59\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/ScopeDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"315\">\r\n          <caret line=\"23\" column=\"66\" selection-start-line=\"23\" selection-start-column=\"20\" selection-end-line=\"23\" selection-end-column=\"66\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/UserDao.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"441\">\r\n          <caret line=\"24\" column=\"33\" selection-start-line=\"24\" selection-start-column=\"33\" selection-end-line=\"24\" selection-end-column=\"33\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/model/Phone.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"189\">\r\n          <caret line=\"13\" selection-start-line=\"13\" selection-end-line=\"13\" />\r\n          <folding>\r\n            <element signature=\"e#121#122#0\" expanded=\"true\" />\r\n            <element signature=\"e#146#147#0\" expanded=\"true\" />\r\n            <element signature=\"e#183#184#0\" expanded=\"true\" />\r\n            <element signature=\"e#211#212#0\" expanded=\"true\" />\r\n            <element signature=\"e#245#246#0\" expanded=\"true\" />\r\n            <element signature=\"e#275#276#0\" expanded=\"true\" />\r\n            <element signature=\"e#321#322#0\" expanded=\"true\" />\r\n            <element signature=\"e#359#360#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/AgentDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-2\">\r\n          <caret line=\"30\" column=\"13\" lean-forward=\"true\" selection-start-line=\"30\" selection-start-column=\"13\" selection-end-line=\"30\" selection-end-column=\"13\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/UnitDao.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"189\">\r\n          <caret line=\"9\" column=\"55\" selection-start-line=\"9\" selection-start-column=\"55\" selection-end-line=\"9\" selection-end-column=\"55\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/model/Unit.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"42\">\r\n          <caret line=\"2\" column=\"13\" selection-start-line=\"2\" selection-start-column=\"13\" selection-end-line=\"2\" selection-end-column=\"13\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/impl/LogFactoryImpl.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"241\">\r\n          <caret line=\"183\" selection-start-line=\"183\" selection-end-line=\"183\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/impl/Jdk14Logger.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"178\">\r\n          <caret line=\"70\" selection-start-line=\"70\" selection-end-line=\"70\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/service/AdminService.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"1321\">\r\n          <caret line=\"80\" column=\"26\" selection-start-line=\"80\" selection-start-column=\"26\" selection-end-line=\"80\" selection-end-column=\"26\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"357\">\r\n          <caret line=\"39\" column=\"11\" selection-start-line=\"39\" selection-start-column=\"11\" selection-end-line=\"39\" selection-end-column=\"11\" />\r\n          <folding>\r\n            <element signature=\"e#1467#1468#0\" expanded=\"true\" />\r\n            <element signature=\"e#1511#1512#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"343\">\r\n          <caret line=\"33\" column=\"33\" selection-start-line=\"33\" selection-start-column=\"33\" selection-end-line=\"33\" selection-end-column=\"33\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/impl/WeakHashtable.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state>\r\n          <folding>\r\n            <element signature=\"e#0#9301#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/LogFactory.class\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"157\">\r\n          <caret line=\"339\" selection-start-line=\"339\" selection-end-line=\"339\" />\r\n          <folding>\r\n            <element signature=\"e#13406#13553#0\" expanded=\"true\" />\r\n            <element signature=\"e#13552#13553#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state>\r\n          <folding>\r\n            <element signature=\"n#!!doc\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/model/DataResult.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"126\">\r\n          <caret line=\"6\" selection-start-line=\"6\" selection-end-line=\"6\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"294\">\r\n          <caret line=\"14\" column=\"31\" selection-start-line=\"14\" selection-start-column=\"18\" selection-end-line=\"14\" selection-end-column=\"31\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/model/User.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"-1252\">\r\n          <caret line=\"14\" column=\"28\" selection-start-line=\"14\" selection-start-column=\"28\" selection-end-line=\"14\" selection-end-column=\"28\" />\r\n          <folding>\r\n            <element signature=\"e#328#329#0\" expanded=\"true\" />\r\n            <element signature=\"e#365#366#0\" expanded=\"true\" />\r\n            <element signature=\"e#393#394#0\" expanded=\"true\" />\r\n            <element signature=\"e#426#427#0\" expanded=\"true\" />\r\n            <element signature=\"e#455#456#0\" expanded=\"true\" />\r\n            <element signature=\"e#499#500#0\" expanded=\"true\" />\r\n            <element signature=\"e#535#536#0\" expanded=\"true\" />\r\n            <element signature=\"e#567#568#0\" expanded=\"true\" />\r\n            <element signature=\"e#595#596#0\" expanded=\"true\" />\r\n            <element signature=\"e#637#638#0\" expanded=\"true\" />\r\n            <element signature=\"e#671#672#0\" expanded=\"true\" />\r\n            <element signature=\"e#703#704#0\" expanded=\"true\" />\r\n            <element signature=\"e#730#731#0\" expanded=\"true\" />\r\n            <element signature=\"e#771#772#0\" expanded=\"true\" />\r\n            <element signature=\"e#803#804#0\" expanded=\"true\" />\r\n            <element signature=\"e#835#836#0\" expanded=\"true\" />\r\n            <element signature=\"e#862#863#0\" expanded=\"true\" />\r\n            <element signature=\"e#903#904#0\" expanded=\"true\" />\r\n            <element signature=\"e#935#936#0\" expanded=\"true\" />\r\n            <element signature=\"e#971#972#0\" expanded=\"true\" />\r\n            <element signature=\"e#1005#1006#0\" expanded=\"true\" />\r\n            <element signature=\"e#1057#1058#0\" expanded=\"true\" />\r\n            <element signature=\"e#1103#1104#0\" expanded=\"true\" />\r\n            <element signature=\"e#1135#1136#0\" expanded=\"true\" />\r\n            <element signature=\"e#1163#1164#0\" expanded=\"true\" />\r\n            <element signature=\"e#1205#1206#0\" expanded=\"true\" />\r\n            <element signature=\"e#1239#1240#0\" expanded=\"true\" />\r\n            <element signature=\"e#1271#1272#0\" expanded=\"true\" />\r\n            <element signature=\"e#1299#1300#0\" expanded=\"true\" />\r\n            <element signature=\"e#1341#1342#0\" expanded=\"true\" />\r\n            <element signature=\"e#1375#1376#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/defalt.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"84\">\r\n          <caret line=\"4\" column=\"16\" selection-start-line=\"4\" selection-start-column=\"11\" selection-end-line=\"4\" selection-end-column=\"16\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"735\">\r\n          <caret line=\"35\" selection-start-line=\"35\" selection-end-line=\"35\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/index.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"273\">\r\n          <caret line=\"13\" column=\"54\" selection-start-line=\"13\" selection-start-column=\"54\" selection-end-line=\"13\" selection-end-column=\"54\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/webapp/success.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"252\">\r\n          <caret line=\"12\" column=\"53\" selection-start-line=\"12\" selection-start-column=\"53\" selection-end-line=\"12\" selection-end-column=\"53\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/util/Image.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"1260\">\r\n          <caret line=\"60\" column=\"18\" lean-forward=\"true\" selection-start-line=\"60\" selection-start-column=\"18\" selection-end-line=\"60\" selection-end-column=\"18\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/service/UserService.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"420\">\r\n          <caret line=\"27\" selection-start-line=\"27\" selection-end-line=\"27\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"313\">\r\n          <caret line=\"20\" column=\"24\" selection-start-line=\"20\" selection-start-column=\"12\" selection-end-line=\"20\" selection-end-column=\"24\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"342\">\r\n          <caret line=\"37\" column=\"42\" selection-start-line=\"37\" selection-start-column=\"42\" selection-end-line=\"37\" selection-end-column=\"42\" />\r\n          <folding>\r\n            <element signature=\"imports\" expanded=\"true\" />\r\n            <element signature=\"e#1473#1474#0\" expanded=\"true\" />\r\n            <element signature=\"e#1530#1531#0\" expanded=\"true\" />\r\n          </folding>\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n  </component>\r\n  <component name=\"masterDetails\">\r\n    <states>\r\n      <state key=\"ProjectJDKs.UI\">\r\n        <settings>\r\n          <last-edited>1.8</last-edited>\r\n          <splitter-proportions>\r\n            <option name=\"proportions\">\r\n              <list>\r\n                <option value=\"0.2\" />\r\n              </list>\r\n            </option>\r\n          </splitter-proportions>\r\n        </settings>\r\n      </state>\r\n    </states>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(date 1567477932000)
++++ .idea/workspace.xml	(date 1567511351568)
+@@ -8,12 +8,6 @@
+   <component name="ChangeListManager">
+     <list default="true" id="c2b57281-da97-4927-a523-91aedc7a8754" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/model/User.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/service/UserService.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+     </list>
+     <ignored path="$PROJECT_DIR$/out/" />
+     <ignored path="$PROJECT_DIR$/target/" />
+@@ -39,64 +33,47 @@
+   </component>
+   <component name="FileEditorManager">
+     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="313">
+-              <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
+-              <folding>
+-                <element signature="imports" expanded="true" />
+-              </folding>
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+       <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="342">
+-              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
++            <state relative-caret-position="943">
++              <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+-                <element signature="e#1473#1474#0" expanded="true" />
+-                <element signature="e#1530#1531#0" expanded="true" />
+               </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml">
+-          <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="735">
+-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+-            </state>
+-          </provider>
+-        </entry>
+-      </file>
+-      <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
++        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AdminService.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="273">
+-              <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
++            <state relative-caret-position="631">
++              <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/webapp/success.html">
++        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="252">
+-              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
++            <state relative-caret-position="460">
++              <caret line="27" selection-start-line="27" selection-end-line="27" />
++              <folding>
++                <element signature="imports" expanded="true" />
++              </folding>
+             </state>
+           </provider>
+         </entry>
+       </file>
+       <file pinned="false" current-in-tab="false">
+-        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
++        <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AgentService.java">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="420">
+-              <caret line="27" selection-start-line="27" selection-end-line="27" />
++            <state relative-caret-position="207">
++              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+               <folding>
+                 <element signature="imports" expanded="true" />
+               </folding>
+@@ -169,12 +146,18 @@
+       </list>
+     </option>
+   </component>
++  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+   <component name="JsFlowSettings">
+     <service-enabled>true</service-enabled>
+     <exe-path />
+     <other-services-enabled>true</other-services-enabled>
+     <auto-save>true</auto-save>
+   </component>
++  <component name="JsGulpfileManager">
++    <detection-done>true</detection-done>
++    <sorting>DEFINITION_ORDER</sorting>
++  </component>
+   <component name="LogFilters">
+     <option name="FILTER_ERRORS" value="false" />
+     <option name="FILTER_WARNINGS" value="false" />
+@@ -192,10 +175,9 @@
+     </option>
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+-    <option name="x" value="-8" />
+-    <option name="y" value="-8" />
+-    <option name="width" value="976" />
+-    <option name="height" value="1056" />
++    <option name="x" value="-15" />
++    <option name="width" value="980" />
++    <option name="height" value="1040" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+     <ConfirmationsSetting value="1" id="Add" />
+@@ -205,7 +187,6 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="PackagesPane" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+@@ -238,6 +219,40 @@
+               <item name="main" type="462c0819:PsiDirectoryNode" />
+               <item name="java" type="462c0819:PsiDirectoryNode" />
+               <item name="com" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
++              <item name="RegisterSystem" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="java" type="462c0819:PsiDirectoryNode" />
++              <item name="com" type="462c0819:PsiDirectoryNode" />
++              <item name="db" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
++              <item name="RegisterSystem" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="java" type="462c0819:PsiDirectoryNode" />
++              <item name="com" type="462c0819:PsiDirectoryNode" />
++              <item name="Handler" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
++              <item name="RegisterSystem" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="java" type="462c0819:PsiDirectoryNode" />
++              <item name="com" type="462c0819:PsiDirectoryNode" />
++              <item name="service" type="462c0819:PsiDirectoryNode" />
++            </path>
++            <path>
++              <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
++              <item name="RegisterSystem" type="462c0819:PsiDirectoryNode" />
++              <item name="src" type="462c0819:PsiDirectoryNode" />
++              <item name="main" type="462c0819:PsiDirectoryNode" />
++              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
+@@ -245,6 +260,7 @@
+               <item name="src" type="462c0819:PsiDirectoryNode" />
+               <item name="main" type="462c0819:PsiDirectoryNode" />
+               <item name="webapp" type="462c0819:PsiDirectoryNode" />
++              <item name="js" type="462c0819:PsiDirectoryNode" />
+             </path>
+             <path>
+               <item name="RegisterSystem" type="b2602c69:ProjectViewProjectNode" />
+@@ -262,6 +278,7 @@
+           <select />
+         </subPane>
+       </pane>
++      <pane id="PackagesPane" />
+       <pane id="Scope" />
+     </panes>
+   </component>
+@@ -337,11 +354,11 @@
+       <server-settings>
+         <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_40_RegisterSystem" />
+       </server-settings>
+-      <predefined_log_file enabled="true" id="Tomcat" />
+-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+-      <predefined_log_file id="Tomcat Manager" />
+-      <predefined_log_file id="Tomcat Host Manager" />
+-      <predefined_log_file id="Tomcat Localhost Access" />
++      <predefined_log_file id="Tomcat" enabled="true" />
++      <predefined_log_file id="Tomcat Catalina" enabled="true" />
++      <predefined_log_file id="Tomcat Manager" enabled="false" />
++      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
++      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+       <RunnerSettings RunnerId="Debug">
+         <option name="DEBUG_PORT" value="50490" />
+       </RunnerSettings>
+@@ -410,11 +427,11 @@
+       <server-settings>
+         <option name="BASE_DIRECTORY_NAME" value="_RegisterSystem" />
+       </server-settings>
+-      <predefined_log_file enabled="true" id="Tomcat" />
+-      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+-      <predefined_log_file id="Tomcat Manager" />
+-      <predefined_log_file id="Tomcat Host Manager" />
+-      <predefined_log_file id="Tomcat Localhost Access" />
++      <predefined_log_file id="Tomcat" enabled="true" />
++      <predefined_log_file id="Tomcat Catalina" enabled="true" />
++      <predefined_log_file id="Tomcat Manager" enabled="false" />
++      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
++      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+       <RunnerSettings RunnerId="Debug">
+         <option name="DEBUG_PORT" value="50490" />
+       </RunnerSettings>
+@@ -471,9 +488,9 @@
+       </method>
+     </configuration>
+     <list>
++      <item itemvalue="Tomcat Server.Tomcat 8.5.40" />
+       <item itemvalue="Application.Main" />
+       <item itemvalue="Application.Image" />
+-      <item itemvalue="Tomcat Server.Tomcat 8.5.40" />
+     </list>
+     <recent_temporary>
+       <list>
+@@ -516,6 +533,8 @@
+       <workItem from="1567386933912" duration="6102000" />
+       <workItem from="1567398418784" duration="1466000" />
+       <workItem from="1567474158225" duration="3202000" />
++      <workItem from="1567478331181" duration="1567000" />
++      <workItem from="1567508909164" duration="751000" />
+     </task>
+     <task id="LOCAL-00001" summary="新建了接口">
+       <created>1566896948372</created>
+@@ -563,13 +582,13 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="83354000" />
++    <option name="totallyTimeSpent" value="85672000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
++    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+     <editor active="true" />
+     <layout>
+-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6070796" visible="true" weight="0.2153518" />
++      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6070796" visible="true" weight="0.22117962" />
+       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+       <window_info id="Image Layers" order="2" />
+       <window_info id="Capture Tool" order="3" />
+@@ -590,7 +609,7 @@
+       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+       <window_info anchor="bottom" id="Messages" order="11" weight="0.03253796" />
+       <window_info anchor="bottom" id="Java Enterprise" order="12" />
+-      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
++      <window_info anchor="bottom" id="Database Changes" order="13" />
+       <window_info anchor="bottom" id="Version Control" order="14" />
+       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.329718" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+@@ -602,6 +621,7 @@
+       <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+       <window_info anchor="right" id="Palette&#9;" order="7" />
+       <window_info anchor="right" id="Theme Preview" order="8" />
++      <window_info anchor="right" id="Maven Projects" order="9" />
+     </layout>
+     <layout-to-restore>
+       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2521322" />
+@@ -642,6 +662,9 @@
+   <component name="TypeScriptGeneratedFilesManager">
+     <option name="version" value="1" />
+   </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="新建了接口" />
+     <MESSAGE value="完成了接口的实现" />
+@@ -649,20 +672,10 @@
+     <option name="LAST_COMMIT_MESSAGE" value="基本业务逻辑实现" />
+   </component>
+   <component name="editorHistoryManager">
+-    <entry file="jar://D:/maven/repository/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="157">
+-          <caret line="1151" selection-start-line="1151" selection-end-line="1151" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="jar://D:/maven/repository/c3p0/c3p0/0.9.1.2/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/impl/NewPooledConnection.class">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="175">
+           <caret line="342" selection-start-line="342" selection-end-line="342" />
+-          <folding>
+-            <element signature="e#13465#13466#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -684,9 +697,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="315">
+           <caret line="20" selection-start-line="20" selection-end-line="20" />
+-          <folding>
+-            <element signature="e#598#599#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -694,19 +704,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="157">
+           <caret line="356" selection-start-line="356" selection-end-line="356" />
+-          <folding>
+-            <element signature="e#6686#6687#0" expanded="true" />
+-            <element signature="e#6765#6766#0" expanded="true" />
+-            <element signature="e#6818#6819#0" expanded="true" />
+-            <element signature="e#6856#6857#0" expanded="true" />
+-            <element signature="e#6981#6982#0" expanded="true" />
+-            <element signature="e#7061#7062#0" expanded="true" />
+-            <element signature="e#16650#16651#0" expanded="true" />
+-            <element signature="e#92595#92596#0" expanded="true" />
+-            <element signature="e#92643#92644#0" expanded="true" />
+-            <element signature="e#104065#104066#0" expanded="true" />
+-            <element signature="e#104100#104101#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -721,9 +718,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="336">
+           <caret line="123" selection-start-line="123" selection-end-line="123" />
+-          <folding>
+-            <element signature="e#4301#4302#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -731,11 +725,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="157">
+           <caret line="74" selection-start-line="74" selection-end-line="74" />
+-          <folding>
+-            <element signature="e#3422#3423#0" expanded="true" />
+-            <element signature="e#14830#14831#0" expanded="true" />
+-            <element signature="e#14873#14874#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -743,9 +732,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="175">
+           <caret line="123" selection-start-line="123" selection-end-line="123" />
+-          <folding>
+-            <element signature="e#5493#5494#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -753,32 +739,16 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="175">
+           <caret line="374" selection-start-line="374" selection-end-line="374" />
+-          <folding>
+-            <element signature="e#19036#19037#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/32bd7515-a221-41a5-a864-a75b662f8654/console.sql">
+-      <provider selected="true" editor-type-id="text-editor" />
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/target/classes/com/db/AdminDao.class">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state>
+-          <folding>
+-            <element signature="e#0#277#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
++    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/32bd7515-a221-41a5-a864-a75b662f8654/console.sql" />
++    <entry file="file://$PROJECT_DIR$/target/classes/com/db/AdminDao.class" />
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/db/appformDao.class" />
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/db/ScopeDao.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="147">
+           <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -786,57 +756,16 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="294">
+           <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+-          <folding>
+-            <element signature="e#255#256#0" expanded="true" />
+-            <element signature="e#299#300#0" expanded="true" />
+-            <element signature="e#369#370#0" expanded="true" />
+-            <element signature="e#329#330#0" expanded="true" />
+-            <element signature="e#354#355#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/../Online/src/main/webapp/success.html">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="210">
+-          <caret line="10" column="64" selection-start-line="10" selection-start-column="64" selection-end-line="10" selection-end-column="64" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/../Online/src/main/java/com/Handler/CenterController.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="609">
+-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/../SpringJDBC/src/main/java/com/jdbc/BookShopServiceImpl.java">
+-      <provider selected="true" editor-type-id="text-editor" />
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/UnitDaoImpl.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="735">
+-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
++    <entry file="file://$PROJECT_DIR$/../Online/src/main/webapp/success.html" />
++    <entry file="file://$PROJECT_DIR$/../Online/src/main/java/com/Handler/CenterController.java" />
++    <entry file="file://$PROJECT_DIR$/../SpringJDBC/src/main/java/com/jdbc/BookShopServiceImpl.java" />
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/db/PhoneDaoImpl.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="924">
+           <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/PhoneDao.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="105">
+-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+         </state>
+       </provider>
+     </entry>
+@@ -847,40 +776,10 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AgentService.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="63">
+-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/db/AgentDao.java">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="378">
+           <caret line="21" column="8" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="8" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/AdminDaoImpl.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="210">
+-          <caret line="15" column="59" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="59" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/ScopeDaoImpl.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="315">
+-          <caret line="23" column="66" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="66" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -895,23 +794,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="189">
+           <caret line="13" selection-start-line="13" selection-end-line="13" />
+-          <folding>
+-            <element signature="e#121#122#0" expanded="true" />
+-            <element signature="e#146#147#0" expanded="true" />
+-            <element signature="e#183#184#0" expanded="true" />
+-            <element signature="e#211#212#0" expanded="true" />
+-            <element signature="e#245#246#0" expanded="true" />
+-            <element signature="e#275#276#0" expanded="true" />
+-            <element signature="e#321#322#0" expanded="true" />
+-            <element signature="e#359#360#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/AgentDaoImpl.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="-2">
+-          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+         </state>
+       </provider>
+     </entry>
+@@ -919,9 +801,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="189">
+           <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -946,60 +825,21 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AdminService.java">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1321">
+-          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+-          <folding>
+-            <element signature="imports" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+     <entry file="jar://D:/maven/repository/org/springframework/spring-jdbc/4.1.0.RELEASE/spring-jdbc-4.1.0.RELEASE.jar!/org/springframework/jdbc/core/BeanPropertyRowMapper.class">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="357">
+           <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+-          <folding>
+-            <element signature="e#1467#1468#0" expanded="true" />
+-            <element signature="e#1511#1512#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="343">
+-          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+         </state>
+       </provider>
+     </entry>
++    <entry file="jar://D:/Program Files/Java/jdk1.8.0_191/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class" />
+     <entry file="jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/impl/WeakHashtable.class">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state>
+-          <folding>
+-            <element signature="e#0#9301#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
++      <provider selected="true" editor-type-id="text-editor" />
+     </entry>
+     <entry file="jar://D:/maven/repository/commons-logging/commons-logging/1.1.3/commons-logging-1.1.3.jar!/org/apache/commons/logging/LogFactory.class">
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="157">
+           <caret line="339" selection-start-line="339" selection-end-line="339" />
+-          <folding>
+-            <element signature="e#13406#13553#0" expanded="true" />
+-            <element signature="e#13552#13553#0" expanded="true" />
+-          </folding>
+-        </state>
+-      </provider>
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
+-      <provider selected="true" editor-type-id="text-editor">
+-        <state>
+-          <folding>
+-            <element signature="n#!!doc" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -1021,39 +861,6 @@
+       <provider selected="true" editor-type-id="text-editor">
+         <state relative-caret-position="-1252">
+           <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+-          <folding>
+-            <element signature="e#328#329#0" expanded="true" />
+-            <element signature="e#365#366#0" expanded="true" />
+-            <element signature="e#393#394#0" expanded="true" />
+-            <element signature="e#426#427#0" expanded="true" />
+-            <element signature="e#455#456#0" expanded="true" />
+-            <element signature="e#499#500#0" expanded="true" />
+-            <element signature="e#535#536#0" expanded="true" />
+-            <element signature="e#567#568#0" expanded="true" />
+-            <element signature="e#595#596#0" expanded="true" />
+-            <element signature="e#637#638#0" expanded="true" />
+-            <element signature="e#671#672#0" expanded="true" />
+-            <element signature="e#703#704#0" expanded="true" />
+-            <element signature="e#730#731#0" expanded="true" />
+-            <element signature="e#771#772#0" expanded="true" />
+-            <element signature="e#803#804#0" expanded="true" />
+-            <element signature="e#835#836#0" expanded="true" />
+-            <element signature="e#862#863#0" expanded="true" />
+-            <element signature="e#903#904#0" expanded="true" />
+-            <element signature="e#935#936#0" expanded="true" />
+-            <element signature="e#971#972#0" expanded="true" />
+-            <element signature="e#1005#1006#0" expanded="true" />
+-            <element signature="e#1057#1058#0" expanded="true" />
+-            <element signature="e#1103#1104#0" expanded="true" />
+-            <element signature="e#1135#1136#0" expanded="true" />
+-            <element signature="e#1163#1164#0" expanded="true" />
+-            <element signature="e#1205#1206#0" expanded="true" />
+-            <element signature="e#1239#1240#0" expanded="true" />
+-            <element signature="e#1271#1272#0" expanded="true" />
+-            <element signature="e#1299#1300#0" expanded="true" />
+-            <element signature="e#1341#1342#0" expanded="true" />
+-            <element signature="e#1375#1376#0" expanded="true" />
+-          </folding>
+         </state>
+       </provider>
+     </entry>
+@@ -1066,29 +873,96 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/Dispatcher-servlet.xml">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="735">
+-          <caret line="35" selection-start-line="35" selection-end-line="35" />
++        <state relative-caret-position="667">
++          <caret line="29" selection-start-line="29" selection-end-line="29" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="273">
++        <state relative-caret-position="299">
+           <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/webapp/success.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="252">
++        <state relative-caret-position="276">
+           <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+         </state>
+       </provider>
+     </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jquery.min.js">
++      <provider selected="true" editor-type-id="text-editor" />
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/AdminDaoImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="230">
++          <caret line="15" column="59" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="59" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/util/Image.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="1260">
+-          <caret line="60" column="18" lean-forward="true" selection-start-line="60" selection-start-column="18" selection-end-line="60" selection-end-column="18" />
++        <state relative-caret-position="607">
++          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-1132">
++          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/UnitDaoImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="55">
++          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/PhoneDao.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="115">
++          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/AgentDaoImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="23">
++          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/ScopeDaoImpl.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="315">
++          <caret line="23" column="66" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="66" />
++          <folding>
++            <element signature="imports" expanded="true" />
++          </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AdminService.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="631">
++          <caret line="80" column="26" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
+           <folding>
+             <element signature="imports" expanded="true" />
+           </folding>
+@@ -1097,7 +971,7 @@
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/service/UserService.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="420">
++        <state relative-caret-position="460">
+           <caret line="27" selection-start-line="27" selection-end-line="27" />
+           <folding>
+             <element signature="imports" expanded="true" />
+@@ -1105,24 +979,29 @@
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/src/main/java/com/db/UserDaoImpl.java">
++    <entry file="file://$PROJECT_DIR$/src/main/java/com/service/AgentService.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="313">
+-          <caret line="20" column="24" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="24" />
++        <state relative-caret-position="207">
++          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+           <folding>
+             <element signature="imports" expanded="true" />
+           </folding>
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$USER_HOME$/AppData/Local/Temp/HZ$D.808.2549/HZ$D.808.2550/源码及PPT/springmvc-2/src/com/atguigu/springmvc/crud/handlers/EmployeeHandler.java">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="-1095">
++          <caret line="27" column="40" lean-forward="true" selection-start-line="27" selection-start-column="40" selection-end-line="27" selection-end-column="40" />
+         </state>
+       </provider>
+     </entry>
+     <entry file="file://$PROJECT_DIR$/src/main/java/com/Handler/CenterController.java">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="342">
+-          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
++        <state relative-caret-position="943">
++          <caret line="58" column="20" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+           <folding>
+             <element signature="imports" expanded="true" />
+-            <element signature="e#1473#1474#0" expanded="true" />
+-            <element signature="e#1530#1531#0" expanded="true" />
+           </folding>
+         </state>
+       </provider>
