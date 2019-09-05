@@ -21,9 +21,9 @@ public class UserDaoImpl implements UserDao {
     private JdbcTemplate jdbcTemplate;
     @Override
     public boolean InsertUser(User user) {
-        String sql="INSERT INTO user_table(u_name,u_sex,u_id,a_id,create_time,u_url,phone) VALUES(?,?,?,?,?,?,?)";
+        String sql="INSERT INTO user_table(u_name,u_sex,u_id,a_id,create_time,u_hash,phone) VALUES(?,?,?,?,?,?,?)";
         try {
-            jdbcTemplate.update(sql, user.getU_name(), user.getU_sex(), user.getU_id(), user.getA_id(), user.getCreate_time(), user.getU_url(),user.getPhone());
+            jdbcTemplate.update(sql, user.getU_name(), user.getU_sex(), user.getU_id(), user.getA_id(), user.getCreate_time(), user.getU_hash(),user.getPhone());
            return true;
         }catch (Exception e){
             e.printStackTrace();
@@ -44,6 +44,14 @@ public class UserDaoImpl implements UserDao {
         String sql="SELECT * FROM user_table WHERE a_id=?";
         RowMapper<User> rowMapper=new BeanPropertyRowMapper<>(User.class);
         List<User> list=jdbcTemplate.query(sql,rowMapper,a_id);
+        return list;
+    }
+
+    @Override
+    public List<User> FindUserByUhash(String hash) {
+        String sql="SELECT * FROM user_table WHERE u_hash=?";
+        RowMapper<User> rowMapper=new BeanPropertyRowMapper<>(User.class);
+        List<User> list=jdbcTemplate.query(sql,rowMapper,hash);
         return list;
     }
 

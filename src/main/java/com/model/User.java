@@ -9,7 +9,7 @@ public class User {
     private Integer u_id;
     private Integer a_id;
     private Date create_time;
-    private String u_url;
+    private String u_hash;
     private String phone;
 
     public Integer getId() {
@@ -60,12 +60,12 @@ public class User {
         this.create_time = create_time;
     }
 
-    public String getU_url() {
-        return u_url;
+    public String getU_hash() {
+        return u_hash;
     }
 
-    public void setU_url(String u_url) {
-        this.u_url = u_url;
+    public void setU_hash(String u_hash) {
+        this.u_hash = u_hash;
     }
 
     public String getPhone() {
@@ -85,7 +85,7 @@ public class User {
                 ", u_id=" + u_id +
                 ", a_id=" + a_id +
                 ", create_time=" + create_time +
-                ", u_url='" + u_url + '\'' +
+                ", u_hash='" + u_hash + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
     }

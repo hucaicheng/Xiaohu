@@ -23,6 +23,10 @@ public interface UserDao {
      * 通过代理人的id来获取代理人的用户
      */
     List<User> FindUsersByAid(int a_id);
+    /**
+     * 通过hshs获取用户
+     */
+    List<User> FindUserByUhash(String hash);
 
     /*
      * 获取所有记录

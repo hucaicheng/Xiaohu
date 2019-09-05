@@ -55,6 +55,15 @@ public class UserService {
         dataResult.setStatus(200);
         return dataResult;
     }
+
+    public DataResult GetUserByUhash(String hash){
+        DataResult dataResult = new DataResult();
+        dataResult.setData(userDao.FindUserByUhash(hash));
+        dataResult.setMsg("获取成功");
+        dataResult.setStatus(200);
+        return dataResult;
+    }
+
     public DataResult DELETEUser(int id){
         DataResult dataResult = new DataResult();
         if(userDao.DeleteUserById(id)){
